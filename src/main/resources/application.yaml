@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: xi11a-service-registry
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
